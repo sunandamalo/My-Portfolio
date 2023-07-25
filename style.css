@@ -1,0 +1,111 @@
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header{
+    background: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.7), rgba(0,0,0,0.2)), url(./perfect.avif) no-repeat ;
+    background-size: cover;
+    height: 100vh;
+    background-position: top
+}
+
+header h1{
+    font-size: 75px;
+
+}
+
+header p{
+    font-size: 20px;
+}
+header .btn{
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-content{
+    padding-right: 100px;
+}
+
+.col-12{
+    padding-top: 50px;
+}
+
+.card .btn{
+    font-family: 'Poppins', sans-serif;
+}
+
+.project-content-pl{
+    padding-left: 100px;
+}
+
+.project-content-pr{
+    padding-right: 100px;
+}
+
+@media (max-width: 992px){
+    header{
+        background: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(./perfect.avif) no-repeat ;
+        background-size: cover;
+        background-position: top
+    }
+
+    .about-content{
+        padding-right: 0;
+        padding-bottom: 50px;
+    }
+
+    .project-content-pl{
+        padding-left: 0;
+    }
+
+    .project-content-pr{
+        padding-right: 0;
+    }
+}
+
+@media(max-width: 768px){
+    header h1{
+        font-size: 60px;
+    }
+
+    header p{
+        font-size: 16px;
+    }
+}
+
+.icons{
+    padding-bottom: 50px;
+}
+.icon{
+    padding: 10px;
+}
+
+.icon.linkedin:hover svg{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.icon.github:hover svg{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.icon.instagram:hover svg{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.img-fluid.shadow:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.nav-link.active {
+    font-weight: bold; 
+}
+
